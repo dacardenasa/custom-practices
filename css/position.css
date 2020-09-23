@@ -1,0 +1,120 @@
+/* ESTILOS GENERALES */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('../img/chalkboard.jpg');
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.clearfix {
+  float: none;
+  clear: both;
+}
+
+.container {
+  position: relative;
+  width: 900px;
+  height: 820px;
+  border: 10px  solid white;
+  margin: 200px auto;
+  background-color: white;
+}
+
+.container .aside {
+  float: left;
+  width: 40%;
+  height: 100%;
+  background-color: white;
+}
+
+/* LIGHTGREEN STYLES */
+
+.container .aside .lightGreen {
+  position: relative;
+  width: 100%;
+  height: 45%;
+  background-color: #5a9fa0;
+  box-shadow: 7px 3px 8px 11px #8a8a8a;
+}
+
+.container .aside .lightGreen .lightBrown {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #e1b68b;
+  top: 100px;
+  right: 0;
+}
+
+.container .aside .lightGreen .lightBrown .black {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  top: 40px;
+  left: 80px;
+}
+
+.container .aside .pink {
+  position: absolute;
+  width: 140px;
+  height: 20px;
+  background-color: #ffc0cb;
+  top: 280px;
+  right: 0;
+}
+
+/* END LIGHTGREEN STYLES */
+
+/* BLACK STYLES */
+
+.container .aside > .black {
+  position: relative;
+  width: 75%;
+  height: 55%;
+  background-color: black;
+  box-shadow: 7px 3px 8px 11px #8a8a8a;
+}
+
+.container .aside .black .red{
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  top: 200px;
+  right: -99px;
+  box-shadow: 7px 3px 8px 11px #8a8a8a;
+}
+
+/* END BLACK STYLES */
+
+.container .box {
+  position: absolute;
+  display: block;
+  width: 350px;
+  height: 100px;
+  border: 3px dashed blue;
+  top: 275px;
+  right: 30px;
+  box-shadow: 5px 5px 15px 20px rgb(139, 134, 134);
+}
+
+.container .box h2 {
+  font-size: 25px;
+  line-height: 50px;
+  font-weight: 1000;
+  text-align: center;
+  padding: 10px;
+  padding-top: 20px;
+  text-shadow: 3px 3px 25px red;
+}
+
+/* END SECTION STYLES */
+
+
+
